@@ -1,0 +1,46 @@
+div#wordDisplay {
+  font-size: 5em;
+  margin: 10px 25px 50px 25px;
+  text-align: center;
+}
+div.letter {
+  width: 60px;
+  margin: 0px 5px;
+  display: inline-block;
+  text-align: center;
+}
+.word {
+  display: inline-block;
+}
+.hidden {
+  color: white;
+  border-bottom: 2px solid black;
+}
+.shown {
+  color: black;
+  border-bottom: 2px solid black;
+}
+.missing {
+  color: red;
+  border-bottom: 2px solid black;
+}
+#guessingArea {
+  padding-bottom: 50px;
+}
+.redText {
+  color: red;
+}
+.victory {
+  font-size: 40px;
+  color: blue;
+}
+.defeat {
+  font-size: 40px;
+  color: red;
+}
+.hide {
+  display: none;
+}
+.spaceBefore {
+  margin-left: 40px !important;
+}
